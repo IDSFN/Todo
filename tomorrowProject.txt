@@ -1,6 +1,0 @@
-animsation: http://git.blivesta.com/animsition/
-Sticky : https://github.com/garand/sticky
-slick: http://kenwheeler.github.io/slick/
-
-Kind of mock up
-they are bookmarked look at the work with us and then add that h1 to home page after the slidshow

@@ -6,153 +6,51 @@
    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
-   <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
-   <link rel="stylesheet" href="animsition/dist/css/animsition.min.css">
    <link rel="stylesheet" href="css/style.css">
-   <title>MBL | By Nedal Kouissi</title>
+   <title>Todo list | By Nedal Kouissi</title>
 </head>
 <body>
-   <!-- Header -->
-   <header>
-      <div class="container">
-         <h1 class="logo">Website's Name</h1>
-         <p class="description">We create art</p>
-         <nav class="main-nav">
-             <ul class="animsition">
-                 <li><a href="#">Home</a></li><!--
-              --><li><a href="#">Work</a></li><!--
-              --><li><a href="#">About Us</a></li>
-             </ul>
-         </nav>
-      </div>
-   </header>
 
-   <!-- Sliders -->
-   <div class="sliders animsition">
-      <div class="slider first">
-         <div class="container">
-            <div class="text">
-               <h1>Tiltle</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-               <a href="#" class="btn">Check it out</a>
-            </div>
-            <div class="logo">
-               <i class="fa fa-area-chart"></i>
-            </div>
-         </div>
-      </div>
-
-      <div class="slider second">
-         <div class="container">
-            <div class="text">
-               <h1>Tiltle</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-               <a href="#" class="btn">Check it out</a>
-            </div>
-            <div class="logo">
-               <i class="fa fa-pie-chart"></i>
-            </div>
-         </div>
-      </div>
-
-      <div class="slider thirth">
-         <div class="container">
-            <div class="text">
-               <h1>Tiltle</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-               <a href="#" class="btn">Check it out</a>
-            </div>
-            <div class="logo">
-               <i class="fa fa-line-chart"></i>
-            </div>
-         </div>
-      </div>
-
-      <div class="slider forth">
-         <div class="container">
-            <div class="text">
-               <h1>Tiltle</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-               <a href="#" class="btn">Check it out</a>
-            </div>
-            <div class="logo">
-               <i class="fa fa-krw"></i>
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- Text Introduction -->
+   <!-- Container -->
    <div class="container">
-      <h1 class="introductionHead">What we do</h1>
-      <h3 class="introductionDesc testo" >like i said we create art.</h3>
+      <!-- What to do ? -->
+      <div class="wtd">
+         <span>What to do</span>
+         <input type="text" value="">
+         <i class="fa fa-plus"></i>
+      </div>
+      
+      <!-- TO do list -->
+      <ul class="to-do">
+<!--          <li>
+            <label>Call my lawyer at 9PM</label>
+            <input type="text" value ="Call my lawyer at 9PM">
+            <i class="fa fa-check"></i>
+            <i class="fa fa-pencil"></i>
+            <i class="fa fa-trash-o"></i>
+         </li>
+         <li>
+            <label>Call my lawyer at 9PM</label>
+            <input type="text" value ="Call my lawyer at 9PM">
+            <i class="fa fa-check"></i>
+            <i class="fa fa-pencil"></i>
+            <i class="fa fa-trash-o"></i>
+         </li> -->
+      </ul>
+
+      <!--DONE list -->
+      <ul class="done">
+<!--          <li>
+            <label>Call my lawyer at 9PM</label>
+            <input type="text" value ="Call my lawyer at 9PM">
+            <i class="fa fa-check"></i>
+            <i class="fa fa-pencil"></i>
+            <i class="fa fa-trash-o"></i>
+         </li> -->
+      </ul>
    </div>
-
-   <!-- What we did -->
-   <div class="wwd animsition">
-      <div class="feature f1">
-         <i class="fa fa-archive"></i>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-         <a href="#" class="btn">Check it out</a>
-      </div>
-      <div class="feature f2">
-         <i class="fa fa-cube"></i>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-         <a href="#" class="btn">Check it out</a>
-      </div>
-      <div class="feature f3">
-         <i class="fa fa-bicycle"></i>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-         <a href="#" class="btn">Check it out</a>
-      </div>
-   </div>
-
-   <!-- Meet our team -->
-   <div class="container">
-      <h1 class="introductionHead">Meet the team</h1>
-      <h3 class="introductionDesc">United we stand divided we fail.</h3>
-   </div>
-
-   <!-- Team carousel sh!!t -->
-   <div class="teamFaces">
-      <div class="face">
-         <img src="imgs/f1.jpg" alt="person1">
-      </div>
-      <div class="face">
-         <img src="imgs/f2.jpg" alt="person2">
-      </div>
-      <div class="face">
-         <img src="imgs/f3.jpg" alt="person2">
-      </div>
-      <div class="face">
-         <img src="imgs/f4.jpg" alt="person2">
-      </div>
-      <div class="face">
-         <img src="imgs/f5.jpg" alt="person2">
-      </div>
-      <div class="face">
-         <img src="imgs/f6.jpg" alt="person2">
-      </div>
-   </div>
-
-   <!-- Footer -->
-   <footer>
-      <span class="talk">Connect with us</span>
-      <div class="socialIcons">
-         <span class="fb"></span>
-         <span class="tw"></span>
-         <span class="yt"></span>
-         <span class="gp"></span>
-      </div>
-   </footer>
-
+   
    <!-- Scripts -->
-   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-   <script type="text/javascript" src="js/slick/slick.min.js"></script>
-   <script type="text/javascript" src="js/sticky/jquery.sticky.js"></script>
-   <script src="./animsition/js/animsition.min.js"></script>
    <script type="text/javascript" src="js/script.js"></script>
    <!-- End Scripts -->
 </body>
